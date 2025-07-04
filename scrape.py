@@ -6,7 +6,8 @@ import os
 
 load_dotenv()
 
-SBR_WEBDRIVER = os.getenv("SBR_WEBDRIVER")
+SBR_WEBDRIVER = "http://localhost:4444/wd/hub"  
+# os.getenv("SBR_WEBDRIVER")
 
 
 def scrape_website(website):
